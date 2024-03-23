@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-image: url('../immagini/scarioprincipale.jpg');
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative; /* Aggiunto position relative per la posizione dell'icona */
+    background-repeat: no-repeat, repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 953px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+hr{
+    color: black;
+    background: black;
+    border: 0;
+    height: 1px;
+}
+footer {
+    background-color: #1a1a2e;
+    color:white;
+    text-shadow: 2ch;
+    text-align: center;
+    text-decoration: solid;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-size: 1em;
+    padding: 5px 0;
+    width: 100%;
+}
+h1{
+    color:white;
+    text-shadow: 2ch;
+    text-align: center;
+    text-decoration: solid;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-size: 10em;
+    margin: 0;                
+}
+h2, h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: serif;
+    font-style: initial;
+    font-size: 3em;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 22px;
+    margin: 0px; 
+}
+h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: serif;
+    font-style: initial;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0px; 
+}
+p{
+    color:rgb(0, 0, 0);
+    text-shadow: 2ch;
+    text-align: center;
+    text-decoration: solid;
+    font-family: calibri;
+    font-size: larger;
+    padding-left: 10px;
+}           
+.pjust{
+    color:rgb(0, 0, 0);
+    text-shadow: 2ch;
+    text-align: justify;
+    text-decoration: solid;
+    font-family: calibri;
+    font-size: larger;
+    padding-left: 10px;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}
+.divdescr, .divserv, .divrooms{
+    height: 100%;
+    width: 100%;
+}
+.p-descr{
+    text-align: left;
+}
+.vicolo-img{
+    width: 45%;
+    height: 45%;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 6px;
+}
+.div-display-serv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.div-icons{
+    margin-left: 0px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+}
+.div-icons img{
+    max-width: 40%;
+    height: 40%;
+    border-radius: 5px;
+}
+.div-icons p{
+    width: auto;
+    margin-top: 0;
+}
+.div-breakfast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding-bottom: 4px;
+}
+.div-breakfast img{
+    height: 550px;
+    width: 806px;
+}
+.div-breakfast li{
+    text-align: left;
+    justify-content: center;
+}
+.pfoot{
+    color:white;
+    text-shadow: 2ch;
+    text-align: center;
+    text-decoration: solid;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-size: 3em;
+}
+footer p{
+    color: white;
+    justify-content: center;
+}
